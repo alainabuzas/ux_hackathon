@@ -27,6 +27,35 @@ nav {
 	padding-top: 50px;
 }
 
+.hearts {
+	font-size: 40px !important;
+	color: #fff !important ;
+}
+
+.badge {
+	background-color: transparent !important;
+}
+
+.search-bar {
+	margin: 80px;
+}
+
+.search-form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-form i {
+	font-size: 50px;
+}
+
+.input-field {
+	width: 80%;
+	margin-left: 50px;
+}
+
 .bottom-nav {
 	position:fixed;
 	bottom: 0;

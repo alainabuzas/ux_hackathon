@@ -36,8 +36,11 @@ nav {
 	background-color: transparent !important;
 }
 
+.welcome {
+	margin-top: 100px;
+}
 .search-bar {
-	margin: 80px;
+	margin-top: 70px;
 }
 
 .search-form {
@@ -45,6 +48,8 @@ nav {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid black;
+	height: 150px;
 }
 
 .search-form i {
@@ -54,6 +59,58 @@ nav {
 .input-field {
 	width: 80%;
 	margin-left: 50px;
+}
+
+#search {
+		border-bottom: none !important;
+}
+
+.sec2 {
+		margin-top: 100px;
+}
+
+.feat-stores {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:30px;
+}
+
+.feat-stores h2 {
+	margin-bottom: 40px;
+}
+
+.store {
+	width: 28%;
+}
+
+.feat-stores img {
+	width: 100%;
+	border: 4px solid black;
+}
+
+.swipe-next {
+	height: 100%;
+}
+
+.swipe-next i {
+	font-size: 100px;
+	padding-top: 70px;
+}
+
+.shared-coupons {
+	margin-top: 100px;
+}
+.shared-coupons img {
+	width: 100%;
+	border: 6px dashed black;
+}
+
+.view-btn {
+	width: 100%;
+	height: 100px;
+	font-size: 40px;
+	padding-top: 25px;
 }
 
 .bottom-nav {

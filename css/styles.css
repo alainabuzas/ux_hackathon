@@ -8,7 +8,8 @@
 }
 
 nav {
-	height: 150px !important ;
+	height: 150px !important;
+	background-image: url('../css/images/top-bg.jpg') !important;
 }
 
 .top-nav {
@@ -81,12 +82,12 @@ nav {
 }
 
 .store {
-	width: 28%;
+	width: 31%;
 }
 
 .feat-stores img {
 	width: 100%;
-	border: 4px solid black;
+	border: 2px solid black;
 }
 
 .swipe-next {
@@ -103,7 +104,10 @@ nav {
 }
 .shared-coupons img {
 	width: 100%;
-	border: 6px dashed black;
+}
+
+.shared-coupons h2 {
+	padding-bottom: 20px;
 }
 
 .view-btn {
@@ -121,6 +125,35 @@ nav {
 	height: 1000px;
 }
 
+.arrival-message p {
+	font-size: 80px;
+	text-align: center;
+}
+
+.arrival-message h2 {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.binder-head {
+	margin-top: 60px;
+}
+
+.give-me {
+	margin-bottom: 20px;
+}
+
+.store-img {
+	width: 50%;
+	margin: auto;
+}
+
+.store-img img {
+	width: 100%;
+}
+
+
 .take-head {
 	margin-top: 80px;
 	margin-bottom: 40px;
@@ -134,9 +167,13 @@ nav {
 .a-coupon i {
 	height: 100%;
 	font-size: 120px;
-	color: #757575;
+	color: #ff8a65;
 	border: 3px solid white;
 	border-top: 70px solid white;
+}
+
+.a-coupon i:active {
+	color: #ff1744;
 }
 
 .a-coupon img {
@@ -162,6 +199,10 @@ nav {
 	align-content: center;
 	padding-left: 60px;
 	padding-right: 60px;
+}
+
+a {
+	color: black;
 }
 
 .bottom-nav i {

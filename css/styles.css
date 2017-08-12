@@ -205,6 +205,33 @@ a {
 	color: black;
 }
 
+.btn-large {
+	border:none;
+}
+
+.redeemed {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.cancel-re {
+	color: #757575;
+}
+
+.barcode,
+.tomato-coupon {
+	width: 100%;
+}
+
+.coupon-using {
+	border: 9px dashed #757575;
+	margin-top: 100px;
+}
+
+.redeem {
+	text-align: center;
+}
+
 .bottom-nav i {
 	font-size: 80px !important;
 	padding-top: 50px;

@@ -113,6 +113,42 @@ nav {
 	padding-top: 25px;
 }
 
+.available-coupons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	height: 1000px;
+}
+
+.take-head {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.a-coupon {
+	height: 30%;
+	margin-bottom: 30px;
+}
+
+.a-coupon i {
+	height: 100%;
+	font-size: 120px;
+	color: #757575;
+	border: 3px solid white;
+	border-top: 70px solid white;
+}
+
+.a-coupon img {
+	margin-left: -10px;
+	width: 100%;
+	height: 100%;
+}
+
+.a-text {
+	margin-top: 25px;
+}
+
 .bottom-nav {
 	position:fixed;
 	bottom: 0;

@@ -39,6 +39,11 @@ nav {
 	background-color: transparent !important;
 }
 
+.add-btn {
+	background-color: white;
+	width: 100%;
+}
+
 .welcome {
 	margin-top: 100px;
 }
